@@ -74,3 +74,22 @@
     at async GoogleAuth.getAccessToken (C:\Users\johns\scoop\persist\nodejs\bin\node_modules\firebase-tools\node_modules\google-auth-library\build\src\auth\googleauth.js:524:24)
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2020-04-01T15:48:34.608Z] ----------------------------------------------------------------------
+[debug] [2020-04-01T15:48:34.612Z] Command:       C:\Users\johns\scoop\apps\nodejs\current\node.exe C:\Users\johns\scoop\apps\nodejs\current\bin\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-04-01T15:48:34.613Z] CLI Version:   8.0.0
+[debug] [2020-04-01T15:48:34.613Z] Platform:      win32
+[debug] [2020-04-01T15:48:34.614Z] Node Version:  v13.1.0
+[debug] [2020-04-01T15:48:34.627Z] Time:          Wed Apr 01 2020 10:48:34 GMT-0500 (Central Daylight Time)
+[debug] [2020-04-01T15:48:34.628Z] ----------------------------------------------------------------------
+[debug] [2020-04-01T15:48:34.628Z] 
+[debug] [2020-04-01T15:48:34.669Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-01T15:48:36.810Z] Error: Unexpected error determining execution environment: Invalid response from metadata service: incorrect Metadata-Flavor header.
+    at metadataAccessor (C:\Users\johns\scoop\persist\nodejs\bin\node_modules\firebase-tools\node_modules\gcp-metadata\build\src\index.js:60:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.isAvailable (C:\Users\johns\scoop\persist\nodejs\bin\node_modules\firebase-tools\node_modules\gcp-metadata\build\src\index.js:161:9)
+    at async GoogleAuth._checkIsGCE (C:\Users\johns\scoop\persist\nodejs\bin\node_modules\firebase-tools\node_modules\google-auth-library\build\src\auth\googleauth.js:176:31)
+    at async GoogleAuth.getApplicationDefaultAsync (C:\Users\johns\scoop\persist\nodejs\bin\node_modules\firebase-tools\node_modules\google-auth-library\build\src\auth\googleauth.js:152:21)
+    at async GoogleAuth.getClient (C:\Users\johns\scoop\persist\nodejs\bin\node_modules\firebase-tools\node_modules\google-auth-library\build\src\auth\googleauth.js:502:17)
+    at async GoogleAuth.getAccessToken (C:\Users\johns\scoop\persist\nodejs\bin\node_modules\firebase-tools\node_modules\google-auth-library\build\src\auth\googleauth.js:524:24)
+[error] 
+[error] Error: An unexpected error has occurred.

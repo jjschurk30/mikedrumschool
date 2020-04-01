@@ -15,7 +15,7 @@ return(
 
 
 <h4>You can contact us at cherokeedrumschool@yahoo.com to set up a lesson. Please leave your name
-and number in themessage so we can get back to you. Happy Drumming!</h4>
+and number in the message so we can get back to you. Happy Drumming!</h4>
 
 </Content>
 
